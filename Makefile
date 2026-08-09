@@ -1,7 +1,14 @@
 NVCC        = nvcc
-NVCC_FLAGS  = -O3 -I/usr/local/cuda/include
+NVCC_FLAGS  = -O3 -I/usr/local/cuda/include $(BUILD_ARCH) $(KERNEL_DEFINE)
 LD_FLAGS    = -lcudart -lm -L/usr/local/cuda/lib64
-EXE	        = pv_gpu
-OBJ	        = main.o support.o pv_model.o panel_data.o
+OBJ         = main.o support.o pv_model.o panel_data.o
 
-default: $(EXE)
+.PHONY: default build naive shared coalesced clean resource-usage
+
+naive:
+	$(MAKE) clean
+	$(MAKE) KERNEL=naive ARCH=$(ARCH) build
+
+default: build
+
+build: $(EXE)
