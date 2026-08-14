@@ -1,3 +1,4 @@
+
 #ifndef __FILEH__
 #define __FILEH__
 
@@ -12,8 +13,10 @@ typedef struct {
 #ifdef __cplusplus
 extern "C" {
 #endif
-
-# verify functions
+void verify(const double *irradiance, const double *temperature,
+            const PanelParams *params, int num_panels, int newton_iters,
+            const double *gpu_current, const double *gpu_power,
+            double gpu_total_power = -1.0);
 void startTime(Timer* timer);
 void stopTime(Timer* timer);
 float elapsedTime(Timer timer);
