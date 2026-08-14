@@ -1,0 +1,544 @@
+
+Setting up the problem...0.000048 s
+    panels: 1000
+    newton_iters: 8
+Allocating device variables...0.174163 s
+Copying data from host to device...0.000034 s
+Launching kernel...0.041844 s
+Copying data from device to host...0.000028 s
+Verifying results...TEST PASSED
+
+
+Setting up the problem...0.000284 s
+    panels: 10000
+    newton_iters: 8
+Allocating device variables...0.137473 s
+Copying data from host to device...0.000049 s
+Launching kernel...0.041357 s
+Copying data from device to host...0.000089 s
+Verifying results...TEST PASSED
+
+
+Setting up the problem...0.001278 s
+    panels: 50000
+    newton_iters: 8
+Allocating device variables...0.142466 s
+Copying data from host to device...0.000099 s
+Launching kernel...0.041551 s
+Copying data from device to host...0.000369 s
+Verifying results...TEST PASSED
+
+
+Setting up the problem...0.002534 s
+    panels: 100000
+    newton_iters: 8
+Allocating device variables...0.142651 s
+Copying data from host to device...0.000176 s
+Launching kernel...0.041438 s
+Copying data from device to host...0.000714 s
+Verifying results...TEST PASSED
+
+
+Setting up the problem...0.011336 s
+    panels: 500000
+    newton_iters: 8
+Allocating device variables...0.142822 s
+Copying data from host to device...0.000464 s
+Launching kernel...0.041853 s
+Copying data from device to host...0.002134 s
+Verifying results...TEST PASSED
+
+
+Setting up the problem...0.021409 s
+    panels: 1000000
+    newton_iters: 8
+Allocating device variables...0.142511 s
+Copying data from host to device...0.000801 s
+Launching kernel...0.042337 s
+Copying data from device to host...0.002943 s
+Verifying results...TEST PASSED
+
+
+Setting up the problem...0.041548 s
+    panels: 2000000
+    newton_iters: 8
+Allocating device variables...0.137323 s
+Copying data from host to device...0.001465 s
+Launching kernel...0.043321 s
+Copying data from device to host...0.005141 s
+Verifying results...TEST PASSED
+
+
+Setting up the problem...0.051629 s
+    panels: 2500000
+    newton_iters: 8
+Allocating device variables...0.138676 s
+Copying data from host to device...0.001799 s
+Launching kernel...0.043707 s
+Copying data from device to host...0.005935 s
+Verifying results...TEST PASSED
+
+
+Setting up the problem...0.062320 s
+    panels: 3000000
+    newton_iters: 8
+Allocating device variables...0.138036 s
+Copying data from host to device...0.002119 s
+Launching kernel...0.044207 s
+Copying data from device to host...0.006469 s
+Verifying results...TEST PASSED
+
+
+Setting up the problem...0.078803 s
+    panels: 3800000
+    newton_iters: 8
+Allocating device variables...0.137868 s
+Copying data from host to device...0.002635 s
+Launching kernel...0.045052 s
+Copying data from device to host...0.007909 s
+Verifying results...TEST PASSED
+
+
+Setting up the problem...0.102677 s
+    panels: 5000000
+    newton_iters: 8
+Allocating device variables...0.137205 s
+Copying data from host to device...0.003471 s
+Launching kernel...0.046353 s
+Copying data from device to host...0.010199 s
+Verifying results...TEST PASSED
+
+
+Setting up the problem...0.133382 s
+    panels: 6500000
+    newton_iters: 8
+Allocating device variables...0.144600 s
+Copying data from host to device...0.004383 s
+Launching kernel...0.048704 s
+Copying data from device to host...0.013264 s
+Verifying results...TEST PASSED
+
+
+Setting up the problem...0.184667 s
+    panels: 9000000
+    newton_iters: 8
+Allocating device variables...0.138644 s
+Copying data from host to device...0.006068 s
+Launching kernel...0.050578 s
+Copying data from device to host...0.017597 s
+Verifying results...TEST PASSED
+
+
+Setting up the problem...0.204529 s
+    panels: 10000000
+    newton_iters: 8
+Allocating device variables...0.139097 s
+Copying data from host to device...0.006709 s
+Launching kernel...0.051666 s
+Copying data from device to host...0.020293 s
+Verifying results...TEST PASSED
+
+
+Setting up the problem...0.307575 s
+    panels: 15000000
+    newton_iters: 8
+Allocating device variables...0.142852 s
+Copying data from host to device...0.009995 s
+Launching kernel...0.056390 s
+Copying data from device to host...0.029266 s
+Verifying results...TEST PASSED
+
+
+Setting up the problem...0.409133 s
+    panels: 20000000
+    newton_iters: 8
+Allocating device variables...0.141226 s
+Copying data from host to device...0.013260 s
+Launching kernel...0.061272 s
+Copying data from device to host...0.037032 s
+Verifying results...TEST PASSED
+
+
+Setting up the problem...0.000048 s
+    panels: 1000
+    newton_iters: 8
+Allocating device variables...0.142563 s
+Copying data from host to device...0.000038 s
+Launching kernel...0.043089 s
+Copying data from device to host...0.000046 s
+    total power (GPU-reduced): 244.002 kW
+Verifying results...TEST PASSED (total power: 244001.922006 W)
+
+
+Setting up the problem...0.000277 s
+    panels: 10000
+    newton_iters: 8
+Allocating device variables...0.137679 s
+Copying data from host to device...0.000050 s
+Launching kernel...0.042701 s
+Copying data from device to host...0.000116 s
+    total power (GPU-reduced): 2440.625 kW
+Verifying results...TEST PASSED (total power: 2440624.628848 W)
+
+
+Setting up the problem...0.001286 s
+    panels: 50000
+    newton_iters: 8
+Allocating device variables...0.136087 s
+Copying data from host to device...0.000106 s
+Launching kernel...0.042758 s
+Copying data from device to host...0.000447 s
+    total power (GPU-reduced): 12202.120 kW
+Verifying results...TEST PASSED (total power: 12202120.236376 W)
+
+
+Setting up the problem...0.002525 s
+    panels: 100000
+    newton_iters: 8
+Allocating device variables...0.136517 s
+Copying data from host to device...0.000179 s
+Launching kernel...0.042709 s
+Copying data from device to host...0.000848 s
+    total power (GPU-reduced): 24403.571 kW
+Verifying results...TEST PASSED (total power: 24403570.613061 W)
+
+
+Setting up the problem...0.011340 s
+    panels: 500000
+    newton_iters: 8
+Allocating device variables...0.137138 s
+Copying data from host to device...0.000468 s
+Launching kernel...0.043215 s
+Copying data from device to host...0.002380 s
+    total power (GPU-reduced): 122018.283 kW
+Verifying results...TEST PASSED (total power: 122018283.310640 W)
+
+
+Setting up the problem...0.021413 s
+    panels: 1000000
+    newton_iters: 8
+Allocating device variables...0.137415 s
+Copying data from host to device...0.000814 s
+Launching kernel...0.043460 s
+Copying data from device to host...0.003042 s
+    total power (GPU-reduced): 244036.120 kW
+Verifying results...TEST PASSED (total power: 244036120.429552 W)
+
+
+Setting up the problem...0.041585 s
+    panels: 2000000
+    newton_iters: 8
+Allocating device variables...0.136616 s
+Copying data from host to device...0.001482 s
+Launching kernel...0.044650 s
+Copying data from device to host...0.005310 s
+    total power (GPU-reduced): 488066.294 kW
+Verifying results...TEST PASSED (total power: 488066294.412977 W)
+
+
+Setting up the problem...0.051599 s
+    panels: 2500000
+    newton_iters: 8
+Allocating device variables...0.138599 s
+Copying data from host to device...0.001810 s
+Launching kernel...0.045366 s
+Copying data from device to host...0.005870 s
+    total power (GPU-reduced): 610083.703 kW
+Verifying results...TEST PASSED (total power: 610083702.882422 W)
+
+
+Setting up the problem...0.062332 s
+    panels: 3000000
+    newton_iters: 8
+Allocating device variables...0.137345 s
+Copying data from host to device...0.002120 s
+Launching kernel...0.045722 s
+Copying data from device to host...0.006499 s
+    total power (GPU-reduced): 732098.998 kW
+Verifying results...TEST PASSED (total power: 732098998.450456 W)
+
+
+Setting up the problem...0.078747 s
+    panels: 3800000
+    newton_iters: 8
+Allocating device variables...0.138297 s
+Copying data from host to device...0.002626 s
+Launching kernel...0.046634 s
+Copying data from device to host...0.007883 s
+    total power (GPU-reduced): 927324.564 kW
+Verifying results...TEST PASSED (total power: 927324563.791093 W)
+
+
+Setting up the problem...0.103983 s
+    panels: 5000000
+    newton_iters: 8
+Allocating device variables...0.144189 s
+Copying data from host to device...0.003465 s
+Launching kernel...0.047946 s
+Copying data from device to host...0.010955 s
+    total power (GPU-reduced): 1220160.540 kW
+Verifying results...TEST PASSED (total power: 1220160539.903721 W)
+
+
+Setting up the problem...0.133420 s
+    panels: 6500000
+    newton_iters: 8
+Allocating device variables...0.138349 s
+Copying data from host to device...0.004422 s
+Launching kernel...0.049826 s
+Copying data from device to host...0.013060 s
+    total power (GPU-reduced): 1586211.026 kW
+Verifying results...TEST PASSED (total power: 1586211026.349518 W)
+
+
+Setting up the problem...0.184624 s
+    panels: 9000000
+    newton_iters: 8
+Allocating device variables...0.143399 s
+Copying data from host to device...0.006067 s
+Launching kernel...0.052250 s
+Copying data from device to host...0.017652 s
+    total power (GPU-reduced): 2196288.427 kW
+Verifying results...TEST PASSED (total power: 2196288426.564511 W)
+
+
+Setting up the problem...0.204546 s
+    panels: 10000000
+    newton_iters: 8
+Allocating device variables...0.138964 s
+Copying data from host to device...0.006729 s
+Launching kernel...0.053393 s
+Copying data from device to host...0.020050 s
+    total power (GPU-reduced): 2440317.606 kW
+Verifying results...TEST PASSED (total power: 2440317605.932414 W)
+
+
+Setting up the problem...0.307343 s
+    panels: 15000000
+    newton_iters: 8
+Allocating device variables...0.140797 s
+Copying data from host to device...0.010000 s
+Launching kernel...0.058080 s
+Copying data from device to host...0.029047 s
+    total power (GPU-reduced): 3660480.424 kW
+Verifying results...TEST PASSED (total power: 3660480423.775259 W)
+
+
+Setting up the problem...0.408486 s
+    panels: 20000000
+    newton_iters: 8
+Allocating device variables...0.138233 s
+Copying data from host to device...0.013262 s
+Launching kernel...0.063084 s
+Copying data from device to host...0.037108 s
+    total power (GPU-reduced): 4880642.300 kW
+Verifying results...TEST PASSED (total power: 4880642299.762661 W)
+
+
+Setting up the problem...0.000056 s
+    panels: 1000
+    newton_iters: 8
+Packing interleaved input array...0.000004 s
+Allocating device variables...0.143131 s
+Copying data from host to device...0.000034 s
+Launching kernel...0.043195 s
+Copying data from device to host...0.000041 s
+Unpacking interleaved output array...0.000005 s
+    total power (GPU-reduced): 244.002 kW
+Verifying results...TEST PASSED (total power: 244001.922006 W)
+
+
+Setting up the problem...0.000290 s
+    panels: 10000
+    newton_iters: 8
+Packing interleaved input array...0.000058 s
+Allocating device variables...0.137286 s
+Copying data from host to device...0.000051 s
+Launching kernel...0.042635 s
+Copying data from device to host...0.000121 s
+Unpacking interleaved output array...0.000063 s
+    total power (GPU-reduced): 2440.625 kW
+Verifying results...TEST PASSED (total power: 2440624.628848 W)
+
+
+Setting up the problem...0.001287 s
+    panels: 50000
+    newton_iters: 8
+Packing interleaved input array...0.000290 s
+Allocating device variables...0.136273 s
+Copying data from host to device...0.000100 s
+Launching kernel...0.042774 s
+Copying data from device to host...0.000443 s
+Unpacking interleaved output array...0.000356 s
+    total power (GPU-reduced): 12202.120 kW
+Verifying results...TEST PASSED (total power: 12202120.236376 W)
+
+
+Setting up the problem...0.002519 s
+    panels: 100000
+    newton_iters: 8
+Packing interleaved input array...0.000580 s
+Allocating device variables...0.137469 s
+Copying data from host to device...0.000131 s
+Launching kernel...0.042735 s
+Copying data from device to host...0.000832 s
+Unpacking interleaved output array...0.000722 s
+    total power (GPU-reduced): 24403.571 kW
+Verifying results...TEST PASSED (total power: 24403570.613061 W)
+
+
+Setting up the problem...0.011322 s
+    panels: 500000
+    newton_iters: 8
+Packing interleaved input array...0.001214 s
+Allocating device variables...0.136500 s
+Copying data from host to device...0.000427 s
+Launching kernel...0.043345 s
+Copying data from device to host...0.001546 s
+Unpacking interleaved output array...0.002136 s
+    total power (GPU-reduced): 122018.283 kW
+Verifying results...TEST PASSED (total power: 122018283.310640 W)
+
+
+Setting up the problem...0.021424 s
+    panels: 1000000
+    newton_iters: 8
+Packing interleaved input array...0.002499 s
+Allocating device variables...0.137746 s
+Copying data from host to device...0.000764 s
+Launching kernel...0.043485 s
+Copying data from device to host...0.002318 s
+Unpacking interleaved output array...0.002861 s
+    total power (GPU-reduced): 244036.120 kW
+Verifying results...TEST PASSED (total power: 244036120.429553 W)
+
+
+Setting up the problem...0.041634 s
+    panels: 2000000
+    newton_iters: 8
+Packing interleaved input array...0.004083 s
+Allocating device variables...0.146272 s
+Copying data from host to device...0.001437 s
+Launching kernel...0.044638 s
+Copying data from device to host...0.003945 s
+Unpacking interleaved output array...0.005140 s
+    total power (GPU-reduced): 488066.294 kW
+Verifying results...TEST PASSED (total power: 488066294.412976 W)
+
+
+Setting up the problem...0.051726 s
+    panels: 2500000
+    newton_iters: 8
+Packing interleaved input array...0.004878 s
+Allocating device variables...0.137750 s
+Copying data from host to device...0.001754 s
+Launching kernel...0.045106 s
+Copying data from device to host...0.005140 s
+Unpacking interleaved output array...0.006118 s
+    total power (GPU-reduced): 610083.703 kW
+Verifying results...TEST PASSED (total power: 610083702.882422 W)
+
+
+Setting up the problem...0.062408 s
+    panels: 3000000
+    newton_iters: 8
+Packing interleaved input array...0.005692 s
+Allocating device variables...0.138732 s
+Copying data from host to device...0.002100 s
+Launching kernel...0.045904 s
+Copying data from device to host...0.005998 s
+Unpacking interleaved output array...0.007030 s
+    total power (GPU-reduced): 732098.998 kW
+Verifying results...TEST PASSED (total power: 732098998.450456 W)
+
+
+Setting up the problem...0.078766 s
+    panels: 3800000
+    newton_iters: 8
+Packing interleaved input array...0.007038 s
+Allocating device variables...0.138949 s
+Copying data from host to device...0.002632 s
+Launching kernel...0.046919 s
+Copying data from device to host...0.007351 s
+Unpacking interleaved output array...0.008817 s
+    total power (GPU-reduced): 927324.564 kW
+Verifying results...TEST PASSED (total power: 927324563.791093 W)
+
+
+Setting up the problem...0.102876 s
+    panels: 5000000
+    newton_iters: 8
+Packing interleaved input array...0.009140 s
+Allocating device variables...0.138231 s
+Copying data from host to device...0.003414 s
+Launching kernel...0.048214 s
+Copying data from device to host...0.009667 s
+Unpacking interleaved output array...0.011155 s
+    total power (GPU-reduced): 1220160.540 kW
+Verifying results...TEST PASSED (total power: 1220160539.903720 W)
+
+
+Setting up the problem...0.133642 s
+    panels: 6500000
+    newton_iters: 8
+Packing interleaved input array...0.011964 s
+Allocating device variables...0.140311 s
+Copying data from host to device...0.004417 s
+Launching kernel...0.049745 s
+Copying data from device to host...0.011797 s
+Unpacking interleaved output array...0.013779 s
+    total power (GPU-reduced): 1586211.026 kW
+Verifying results...TEST PASSED (total power: 1586211026.349518 W)
+
+
+Setting up the problem...0.184826 s
+    panels: 9000000
+    newton_iters: 8
+Packing interleaved input array...0.015570 s
+Allocating device variables...0.138775 s
+Copying data from host to device...0.006028 s
+Launching kernel...0.052213 s
+Copying data from device to host...0.018492 s
+Unpacking interleaved output array...0.019205 s
+    total power (GPU-reduced): 2196288.427 kW
+Verifying results...TEST PASSED (total power: 2196288426.564512 W)
+
+
+Setting up the problem...0.204883 s
+    panels: 10000000
+    newton_iters: 8
+Packing interleaved input array...0.017574 s
+Allocating device variables...0.138406 s
+Copying data from host to device...0.006678 s
+Launching kernel...0.052937 s
+Copying data from device to host...0.017591 s
+Unpacking interleaved output array...0.020833 s
+    total power (GPU-reduced): 2440317.606 kW
+Verifying results...TEST PASSED (total power: 2440317605.932414 W)
+
+
+Setting up the problem...0.308181 s
+    panels: 15000000
+    newton_iters: 8
+Packing interleaved input array...0.025527 s
+Allocating device variables...0.142315 s
+Copying data from host to device...0.009944 s
+Launching kernel...0.057975 s
+Copying data from device to host...0.029299 s
+Unpacking interleaved output array...0.034327 s
+    total power (GPU-reduced): 3660480.424 kW
+Verifying results...TEST PASSED (total power: 3660480423.775258 W)
+
+
+Setting up the problem...0.409035 s
+    panels: 20000000
+    newton_iters: 8
+Packing interleaved input array...0.034449 s
+Allocating device variables...0.138364 s
+Copying data from host to device...0.013246 s
+Launching kernel...0.062755 s
+Copying data from device to host...0.034971 s
+Unpacking interleaved output array...0.040034 s
+    total power (GPU-reduced): 4880642.300 kW
+Verifying results...TEST PASSED (total power: 4880642299.762659 W)
+

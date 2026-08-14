@@ -1,0 +1,1712 @@
+
+Setting up the problem...0.000076 s
+    panels: 1000
+    newton_iters: 8
+Allocating device variables...==PROF== Connected to process 2440026 (/home/oseghalef/code/PV_Final/pv_gpu)
+0.543239 s
+Copying data from host to device...0.000060 s
+Launching kernel...==PROF== Profiling "pvSolveKernel" - 0: 0%....50%....100% - 4 passes
+0.633727 s
+Copying data from device to host...0.000073 s
+Verifying results...TEST PASSED
+
+==PROF== Disconnected from process 2440026
+[2440026] pv_gpu@127.0.0.1
+  pvSolveKernel(int, int, const double *, const double *, PanelParams, double *, double *) (4, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector          500
+    launch__occupancy_per_shared_mem_size                                      992
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        12.48
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        96.98
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.000600 s
+    panels: 10000
+    newton_iters: 8
+Allocating device variables...==PROF== Connected to process 2440062 (/home/oseghalef/code/PV_Final/pv_gpu)
+0.524581 s
+Copying data from host to device...0.000105 s
+Launching kernel...==PROF== Profiling "pvSolveKernel" - 0: 0%....50%....100% - 4 passes
+0.634612 s
+Copying data from device to host...0.000269 s
+Verifying results...TEST PASSED
+
+==PROF== Disconnected from process 2440062
+[2440062] pv_gpu@127.0.0.1
+  pvSolveKernel(int, int, const double *, const double *, PanelParams, double *, double *) (40, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector        5,000
+    launch__occupancy_per_shared_mem_size                                      992
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        12.23
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        97.37
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.002926 s
+    panels: 50000
+    newton_iters: 8
+Allocating device variables...==PROF== Connected to process 2440098 (/home/oseghalef/code/PV_Final/pv_gpu)
+0.512800 s
+Copying data from host to device...0.000300 s
+Launching kernel...==PROF== Profiling "pvSolveKernel" - 0: 0%....50%....100% - 4 passes
+0.632037 s
+Copying data from device to host...0.000964 s
+Verifying results...TEST PASSED
+
+==PROF== Disconnected from process 2440098
+[2440098] pv_gpu@127.0.0.1
+  pvSolveKernel(int, int, const double *, const double *, PanelParams, double *, double *) (196, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector       25,000
+    launch__occupancy_per_shared_mem_size                                      992
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        28.21
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        97.39
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.005665 s
+    panels: 100000
+    newton_iters: 8
+Allocating device variables...==PROF== Connected to process 2440134 (/home/oseghalef/code/PV_Final/pv_gpu)
+0.517917 s
+Copying data from host to device...0.000559 s
+Launching kernel...==PROF== Profiling "pvSolveKernel" - 0: 0%....50%....100% - 4 passes
+0.632101 s
+Copying data from device to host...0.001807 s
+Verifying results...TEST PASSED
+
+==PROF== Disconnected from process 2440134
+[2440134] pv_gpu@127.0.0.1
+  pvSolveKernel(int, int, const double *, const double *, PanelParams, double *, double *) (391, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector       50,000
+    launch__occupancy_per_shared_mem_size                                      992
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        45.85
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        97.45
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.026412 s
+    panels: 500000
+    newton_iters: 8
+Allocating device variables...==PROF== Connected to process 2440170 (/home/oseghalef/code/PV_Final/pv_gpu)
+0.496048 s
+Copying data from host to device...0.001933 s
+Launching kernel...==PROF== Profiling "pvSolveKernel" - 0: 0%....50%....100% - 4 passes
+0.637729 s
+Copying data from device to host...0.005731 s
+Verifying results...TEST PASSED
+
+==PROF== Disconnected from process 2440170
+[2440170] pv_gpu@127.0.0.1
+  pvSolveKernel(int, int, const double *, const double *, PanelParams, double *, double *) (1954, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector      250,000
+    launch__occupancy_per_shared_mem_size                                      992
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        67.50
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        97.45
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.050901 s
+    panels: 1000000
+    newton_iters: 8
+Allocating device variables...==PROF== Connected to process 2440208 (/home/oseghalef/code/PV_Final/pv_gpu)
+0.473731 s
+Copying data from host to device...0.003585 s
+Launching kernel...==PROF== Profiling "pvSolveKernel" - 0: 0%....50%....100% - 4 passes
+0.643604 s
+Copying data from device to host...0.008759 s
+Verifying results...TEST PASSED
+
+==PROF== Disconnected from process 2440208
+[2440208] pv_gpu@127.0.0.1
+  pvSolveKernel(int, int, const double *, const double *, PanelParams, double *, double *) (3907, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector      500,000
+    launch__occupancy_per_shared_mem_size                                      992
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        70.65
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        97.41
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.100062 s
+    panels: 2000000
+    newton_iters: 8
+Allocating device variables...==PROF== Connected to process 2440265 (/home/oseghalef/code/PV_Final/pv_gpu)
+0.633932 s
+Copying data from host to device...0.006989 s
+Launching kernel...==PROF== Profiling "pvSolveKernel" - 0: 0%....50%....100% - 4 passes
+0.644022 s
+Copying data from device to host...0.015892 s
+Verifying results...TEST PASSED
+
+==PROF== Disconnected from process 2440265
+[2440265] pv_gpu@127.0.0.1
+  pvSolveKernel(int, int, const double *, const double *, PanelParams, double *, double *) (7813, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector    1,000,000
+    launch__occupancy_per_shared_mem_size                                      992
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        72.17
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        97.42
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.134291 s
+    panels: 2500000
+    newton_iters: 8
+Allocating device variables...==PROF== Connected to process 2440301 (/home/oseghalef/code/PV_Final/pv_gpu)
+0.592488 s
+Copying data from host to device...0.009869 s
+Launching kernel...==PROF== Profiling "pvSolveKernel" - 0: 0%....50%....100% - 4 passes
+0.651756 s
+Copying data from device to host...0.018725 s
+Verifying results...TEST PASSED
+
+==PROF== Disconnected from process 2440301
+[2440301] pv_gpu@127.0.0.1
+  pvSolveKernel(int, int, const double *, const double *, PanelParams, double *, double *) (9766, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector    1,250,000
+    launch__occupancy_per_shared_mem_size                                      992
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        72.60
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        97.42
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.150188 s
+    panels: 3000000
+    newton_iters: 8
+Allocating device variables...==PROF== Connected to process 2440337 (/home/oseghalef/code/PV_Final/pv_gpu)
+0.572117 s
+Copying data from host to device...0.011794 s
+Launching kernel...==PROF== Profiling "pvSolveKernel" - 0: 0%....50%....100% - 4 passes
+0.651670 s
+Copying data from device to host...0.021780 s
+Verifying results...TEST PASSED
+
+==PROF== Disconnected from process 2440337
+[2440337] pv_gpu@127.0.0.1
+  pvSolveKernel(int, int, const double *, const double *, PanelParams, double *, double *) (11719, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector    1,500,000
+    launch__occupancy_per_shared_mem_size                                      992
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        72.79
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        97.42
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.189566 s
+    panels: 3800000
+    newton_iters: 8
+Allocating device variables...==PROF== Connected to process 2440375 (/home/oseghalef/code/PV_Final/pv_gpu)
+0.537163 s
+Copying data from host to device...0.013400 s
+Launching kernel...==PROF== Profiling "pvSolveKernel" - 0: 0%....50%....100% - 4 passes
+0.651999 s
+Copying data from device to host...0.027105 s
+Verifying results...TEST PASSED
+
+==PROF== Disconnected from process 2440375
+[2440375] pv_gpu@127.0.0.1
+  pvSolveKernel(int, int, const double *, const double *, PanelParams, double *, double *) (14844, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector    1,900,000
+    launch__occupancy_per_shared_mem_size                                      992
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        73.01
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        97.43
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.248149 s
+    panels: 5000000
+    newton_iters: 8
+Allocating device variables...==PROF== Connected to process 2440413 (/home/oseghalef/code/PV_Final/pv_gpu)
+0.491204 s
+Copying data from host to device...0.018076 s
+Launching kernel...==PROF== Profiling "pvSolveKernel" - 0: 0%....50%....100% - 4 passes
+0.662141 s
+Copying data from device to host...0.034693 s
+Verifying results...TEST PASSED
+
+==PROF== Disconnected from process 2440413
+[2440413] pv_gpu@127.0.0.1
+  pvSolveKernel(int, int, const double *, const double *, PanelParams, double *, double *) (19532, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector    2,500,000
+    launch__occupancy_per_shared_mem_size                                      992
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        73.05
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        97.42
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.322834 s
+    panels: 6500000
+    newton_iters: 8
+Allocating device variables...==PROF== Connected to process 2440455 (/home/oseghalef/code/PV_Final/pv_gpu)
+0.704924 s
+Copying data from host to device...0.023813 s
+Launching kernel...==PROF== Profiling "pvSolveKernel" - 0: 0%....50%....100% - 4 passes
+0.673397 s
+Copying data from device to host...0.043558 s
+Verifying results...TEST PASSED
+
+==PROF== Disconnected from process 2440455
+[2440455] pv_gpu@127.0.0.1
+  pvSolveKernel(int, int, const double *, const double *, PanelParams, double *, double *) (25391, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector    3,250,000
+    launch__occupancy_per_shared_mem_size                                      992
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        73.12
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        97.43
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.446384 s
+    panels: 9000000
+    newton_iters: 8
+Allocating device variables...==PROF== Connected to process 2440491 (/home/oseghalef/code/PV_Final/pv_gpu)
+0.584316 s
+Copying data from host to device...0.033838 s
+Launching kernel...==PROF== Profiling "pvSolveKernel" - 0: 0%....50%....100% - 4 passes
+0.684841 s
+Copying data from device to host...0.059465 s
+Verifying results...TEST PASSED
+
+==PROF== Disconnected from process 2440491
+[2440491] pv_gpu@127.0.0.1
+  pvSolveKernel(int, int, const double *, const double *, PanelParams, double *, double *) (35157, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector    4,500,000
+    launch__occupancy_per_shared_mem_size                                      992
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        73.31
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        97.43
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.495610 s
+    panels: 10000000
+    newton_iters: 8
+Allocating device variables...==PROF== Connected to process 2440527 (/home/oseghalef/code/PV_Final/pv_gpu)
+0.540592 s
+Copying data from host to device...0.036741 s
+Launching kernel...==PROF== Profiling "pvSolveKernel" - 0: 0%....50%....100% - 4 passes
+0.688593 s
+Copying data from device to host...0.066702 s
+Verifying results...TEST PASSED
+
+==PROF== Disconnected from process 2440527
+[2440527] pv_gpu@127.0.0.1
+  pvSolveKernel(int, int, const double *, const double *, PanelParams, double *, double *) (39063, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector    5,000,000
+    launch__occupancy_per_shared_mem_size                                      992
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        73.28
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        97.43
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.742762 s
+    panels: 15000000
+    newton_iters: 8
+Allocating device variables...==PROF== Connected to process 2440573 (/home/oseghalef/code/PV_Final/pv_gpu)
+0.696964 s
+Copying data from host to device...0.057669 s
+Launching kernel...==PROF== Profiling "pvSolveKernel" - 0: 0%....50%....100% - 4 passes
+0.710325 s
+Copying data from device to host...0.098349 s
+Verifying results...TEST PASSED
+
+==PROF== Disconnected from process 2440573
+[2440573] pv_gpu@127.0.0.1
+  pvSolveKernel(int, int, const double *, const double *, PanelParams, double *, double *) (58594, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector    7,500,000
+    launch__occupancy_per_shared_mem_size                                      992
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        73.10
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        97.43
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.990013 s
+    panels: 20000000
+    newton_iters: 8
+Allocating device variables...==PROF== Connected to process 2440610 (/home/oseghalef/code/PV_Final/pv_gpu)
+0.943367 s
+Copying data from host to device...0.075944 s
+Launching kernel...==PROF== Profiling "pvSolveKernel" - 0: 0%....50%....100% - 4 passes
+0.736417 s
+Copying data from device to host...0.129318 s
+Verifying results...TEST PASSED
+
+==PROF== Disconnected from process 2440610
+[2440610] pv_gpu@127.0.0.1
+  pvSolveKernel(int, int, const double *, const double *, PanelParams, double *, double *) (78125, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector   10,000,000
+    launch__occupancy_per_shared_mem_size                                      992
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        73.15
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        97.43
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.000075 s
+    panels: 1000
+    newton_iters: 8
+Allocating device variables...==PROF== Connected to process 2440648 (/home/oseghalef/code/PV_Final/pv_gpu_shared)
+0.516052 s
+Copying data from host to device...0.000073 s
+Launching kernel...==PROF== Profiling "pvSolveKernelShared" - 0: 0%....50%....100% - 4 passes
+0.637665 s
+Copying data from device to host...0.000095 s
+    total power (GPU-reduced): 244.002 kW
+Verifying results...TEST PASSED (total power: 244001.922006 W)
+
+==PROF== Disconnected from process 2440648
+[2440648] pv_gpu_shared@127.0.0.1
+  pvSolveKernelShared(int, int, const double *, const double *, PanelParams, double *, double *, double *) (4, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector          500
+    launch__occupancy_per_shared_mem_size                                    1,936
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        12.47
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        97.26
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.000607 s
+    panels: 10000
+    newton_iters: 8
+Allocating device variables...==PROF== Connected to process 2440684 (/home/oseghalef/code/PV_Final/pv_gpu_shared)
+0.519105 s
+Copying data from host to device...0.000115 s
+Launching kernel...==PROF== Profiling "pvSolveKernelShared" - 0: 0%....50%....100% - 4 passes
+0.637257 s
+Copying data from device to host...0.000263 s
+    total power (GPU-reduced): 2440.625 kW
+Verifying results...TEST PASSED (total power: 2440624.628848 W)
+
+==PROF== Disconnected from process 2440684
+[2440684] pv_gpu_shared@127.0.0.1
+  pvSolveKernelShared(int, int, const double *, const double *, PanelParams, double *, double *, double *) (40, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector        5,000
+    launch__occupancy_per_shared_mem_size                                    1,936
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        12.47
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        97.65
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.002864 s
+    panels: 50000
+    newton_iters: 8
+Allocating device variables...==PROF== Connected to process 2440720 (/home/oseghalef/code/PV_Final/pv_gpu_shared)
+0.522453 s
+Copying data from host to device...0.000306 s
+Launching kernel...==PROF== Profiling "pvSolveKernelShared" - 0: 0%....50%....100% - 4 passes
+0.637293 s
+Copying data from device to host...0.000974 s
+    total power (GPU-reduced): 12202.120 kW
+Verifying results...TEST PASSED (total power: 12202120.236376 W)
+
+==PROF== Disconnected from process 2440720
+[2440720] pv_gpu_shared@127.0.0.1
+  pvSolveKernelShared(int, int, const double *, const double *, PanelParams, double *, double *, double *) (196, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector       25,000
+    launch__occupancy_per_shared_mem_size                                    1,936
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        28.53
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        97.66
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.005773 s
+    panels: 100000
+    newton_iters: 8
+Allocating device variables...==PROF== Connected to process 2440756 (/home/oseghalef/code/PV_Final/pv_gpu_shared)
+0.517428 s
+Copying data from host to device...0.000576 s
+Launching kernel...==PROF== Profiling "pvSolveKernelShared" - 0: 0%....50%....100% - 4 passes
+0.634356 s
+Copying data from device to host...0.001897 s
+    total power (GPU-reduced): 24403.571 kW
+Verifying results...TEST PASSED (total power: 24403570.613061 W)
+
+==PROF== Disconnected from process 2440756
+[2440756] pv_gpu_shared@127.0.0.1
+  pvSolveKernelShared(int, int, const double *, const double *, PanelParams, double *, double *, double *) (391, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector       50,000
+    launch__occupancy_per_shared_mem_size                                    1,936
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        45.13
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        97.71
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.026323 s
+    panels: 500000
+    newton_iters: 8
+Allocating device variables...==PROF== Connected to process 2440813 (/home/oseghalef/code/PV_Final/pv_gpu_shared)
+0.498478 s
+Copying data from host to device...0.001932 s
+Launching kernel...==PROF== Profiling "pvSolveKernelShared" - 0: 0%....50%....100% - 4 passes
+0.640544 s
+Copying data from device to host...0.005432 s
+    total power (GPU-reduced): 122018.283 kW
+Verifying results...TEST PASSED (total power: 122018283.310640 W)
+
+==PROF== Disconnected from process 2440813
+[2440813] pv_gpu_shared@127.0.0.1
+  pvSolveKernelShared(int, int, const double *, const double *, PanelParams, double *, double *, double *) (1954, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector      250,000
+    launch__occupancy_per_shared_mem_size                                    1,936
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        67.71
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        97.72
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.050912 s
+    panels: 1000000
+    newton_iters: 8
+Allocating device variables...==PROF== Connected to process 2440849 (/home/oseghalef/code/PV_Final/pv_gpu_shared)
+0.482175 s
+Copying data from host to device...0.003565 s
+Launching kernel...==PROF== Profiling "pvSolveKernelShared" - 0: 0%....50%....100% - 4 passes
+0.647915 s
+Copying data from device to host...0.008345 s
+    total power (GPU-reduced): 244036.120 kW
+Verifying results...TEST PASSED (total power: 244036120.429552 W)
+
+==PROF== Disconnected from process 2440849
+[2440849] pv_gpu_shared@127.0.0.1
+  pvSolveKernelShared(int, int, const double *, const double *, PanelParams, double *, double *, double *) (3907, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector      500,000
+    launch__occupancy_per_shared_mem_size                                    1,936
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        71.36
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        97.67
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.103026 s
+    panels: 2000000
+    newton_iters: 8
+Allocating device variables...==PROF== Connected to process 2440885 (/home/oseghalef/code/PV_Final/pv_gpu_shared)
+0.622773 s
+Copying data from host to device...0.006893 s
+Launching kernel...==PROF== Profiling "pvSolveKernelShared" - 0: 0%....50%....100% - 4 passes
+0.651968 s
+Copying data from device to host...0.015910 s
+    total power (GPU-reduced): 488066.294 kW
+Verifying results...TEST PASSED (total power: 488066294.412977 W)
+
+==PROF== Disconnected from process 2440885
+[2440885] pv_gpu_shared@127.0.0.1
+  pvSolveKernelShared(int, int, const double *, const double *, PanelParams, double *, double *, double *) (7813, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector    1,000,000
+    launch__occupancy_per_shared_mem_size                                    1,936
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        72.84
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        97.69
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.124692 s
+    panels: 2500000
+    newton_iters: 8
+Allocating device variables...==PROF== Connected to process 2440921 (/home/oseghalef/code/PV_Final/pv_gpu_shared)
+0.602031 s
+Copying data from host to device...0.008643 s
+Launching kernel...==PROF== Profiling "pvSolveKernelShared" - 0: 0%....50%....100% - 4 passes
+0.651392 s
+Copying data from device to host...0.018580 s
+    total power (GPU-reduced): 610083.703 kW
+Verifying results...TEST PASSED (total power: 610083702.882422 W)
+
+==PROF== Disconnected from process 2440921
+[2440921] pv_gpu_shared@127.0.0.1
+  pvSolveKernelShared(int, int, const double *, const double *, PanelParams, double *, double *, double *) (9766, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector    1,250,000
+    launch__occupancy_per_shared_mem_size                                    1,936
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        73.19
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        97.69
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.150153 s
+    panels: 3000000
+    newton_iters: 8
+Allocating device variables...==PROF== Connected to process 2440958 (/home/oseghalef/code/PV_Final/pv_gpu_shared)
+0.573549 s
+Copying data from host to device...0.010544 s
+Launching kernel...==PROF== Profiling "pvSolveKernelShared" - 0: 0%....50%....100% - 4 passes
+0.649878 s
+Copying data from device to host...0.021786 s
+    total power (GPU-reduced): 732098.998 kW
+Verifying results...TEST PASSED (total power: 732098998.450456 W)
+
+==PROF== Disconnected from process 2440958
+[2440958] pv_gpu_shared@127.0.0.1
+  pvSolveKernelShared(int, int, const double *, const double *, PanelParams, double *, double *, double *) (11719, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector    1,500,000
+    launch__occupancy_per_shared_mem_size                                    1,936
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        73.45
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        97.68
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.189603 s
+    panels: 3800000
+    newton_iters: 8
+Allocating device variables...==PROF== Connected to process 2440996 (/home/oseghalef/code/PV_Final/pv_gpu_shared)
+0.532586 s
+Copying data from host to device...0.013410 s
+Launching kernel...==PROF== Profiling "pvSolveKernelShared" - 0: 0%....50%....100% - 4 passes
+0.661870 s
+Copying data from device to host...0.027850 s
+    total power (GPU-reduced): 927324.564 kW
+Verifying results...TEST PASSED (total power: 927324563.791093 W)
+
+==PROF== Disconnected from process 2440996
+[2440996] pv_gpu_shared@127.0.0.1
+  pvSolveKernelShared(int, int, const double *, const double *, PanelParams, double *, double *, double *) (14844, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector    1,900,000
+    launch__occupancy_per_shared_mem_size                                    1,936
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        73.54
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        97.69
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.248151 s
+    panels: 5000000
+    newton_iters: 8
+Allocating device variables...==PROF== Connected to process 2441032 (/home/oseghalef/code/PV_Final/pv_gpu_shared)
+0.479583 s
+Copying data from host to device...0.018060 s
+Launching kernel...==PROF== Profiling "pvSolveKernelShared" - 0: 0%....50%....100% - 4 passes
+0.665519 s
+Copying data from device to host...0.034781 s
+    total power (GPU-reduced): 1220160.540 kW
+Verifying results...TEST PASSED (total power: 1220160539.903721 W)
+
+==PROF== Disconnected from process 2441032
+[2441032] pv_gpu_shared@127.0.0.1
+  pvSolveKernelShared(int, int, const double *, const double *, PanelParams, double *, double *, double *) (19532, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector    2,500,000
+    launch__occupancy_per_shared_mem_size                                    1,936
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        73.80
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        97.69
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.322825 s
+    panels: 6500000
+    newton_iters: 8
+Allocating device variables...==PROF== Connected to process 2441068 (/home/oseghalef/code/PV_Final/pv_gpu_shared)
+0.704955 s
+Copying data from host to device...0.023815 s
+Launching kernel...==PROF== Profiling "pvSolveKernelShared" - 0: 0%....50%....100% - 4 passes
+0.679809 s
+Copying data from device to host...0.043379 s
+    total power (GPU-reduced): 1586211.026 kW
+Verifying results...TEST PASSED (total power: 1586211026.349517 W)
+
+==PROF== Disconnected from process 2441068
+[2441068] pv_gpu_shared@127.0.0.1
+  pvSolveKernelShared(int, int, const double *, const double *, PanelParams, double *, double *, double *) (25391, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector    3,250,000
+    launch__occupancy_per_shared_mem_size                                    1,936
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        74.01
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        97.69
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.446419 s
+    panels: 9000000
+    newton_iters: 8
+Allocating device variables...==PROF== Connected to process 2441105 (/home/oseghalef/code/PV_Final/pv_gpu_shared)
+0.580476 s
+Copying data from host to device...0.033247 s
+Launching kernel...==PROF== Profiling "pvSolveKernelShared" - 0: 0%....50%....100% - 4 passes
+0.689822 s
+Copying data from device to host...0.059272 s
+    total power (GPU-reduced): 2196288.427 kW
+Verifying results...TEST PASSED (total power: 2196288426.564512 W)
+
+==PROF== Disconnected from process 2441105
+[2441105] pv_gpu_shared@127.0.0.1
+  pvSolveKernelShared(int, int, const double *, const double *, PanelParams, double *, double *, double *) (35157, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector    4,500,000
+    launch__occupancy_per_shared_mem_size                                    1,936
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        74.11
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        97.69
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.495657 s
+    panels: 10000000
+    newton_iters: 8
+Allocating device variables...==PROF== Connected to process 2441151 (/home/oseghalef/code/PV_Final/pv_gpu_shared)
+0.530270 s
+Copying data from host to device...0.036845 s
+Launching kernel...==PROF== Profiling "pvSolveKernelShared" - 0: 0%....50%....100% - 4 passes
+0.695453 s
+Copying data from device to host...0.066581 s
+    total power (GPU-reduced): 2440317.606 kW
+Verifying results...TEST PASSED (total power: 2440317605.932413 W)
+
+==PROF== Disconnected from process 2441151
+[2441151] pv_gpu_shared@127.0.0.1
+  pvSolveKernelShared(int, int, const double *, const double *, PanelParams, double *, double *, double *) (39063, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector    5,000,000
+    launch__occupancy_per_shared_mem_size                                    1,936
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        74.16
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        97.69
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.742697 s
+    panels: 15000000
+    newton_iters: 8
+Allocating device variables...==PROF== Connected to process 2441187 (/home/oseghalef/code/PV_Final/pv_gpu_shared)
+0.677636 s
+Copying data from host to device...0.056313 s
+Launching kernel...==PROF== Profiling "pvSolveKernelShared" - 0: 0%....50%....100% - 4 passes
+0.718425 s
+Copying data from device to host...0.098061 s
+    total power (GPU-reduced): 3660480.424 kW
+Verifying results...TEST PASSED (total power: 3660480423.775259 W)
+
+==PROF== Disconnected from process 2441187
+[2441187] pv_gpu_shared@127.0.0.1
+  pvSolveKernelShared(int, int, const double *, const double *, PanelParams, double *, double *, double *) (58594, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector    7,500,000
+    launch__occupancy_per_shared_mem_size                                    1,936
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        74.29
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        97.69
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.990738 s
+    panels: 20000000
+    newton_iters: 8
+Allocating device variables...==PROF== Connected to process 2441281 (/home/oseghalef/code/PV_Final/pv_gpu_shared)
+0.938085 s
+Copying data from host to device...0.077047 s
+Launching kernel...==PROF== Profiling "pvSolveKernelShared" - 0: 0%....50%....100% - 4 passes
+0.747095 s
+Copying data from device to host...0.129060 s
+    total power (GPU-reduced): 4880642.300 kW
+Verifying results...TEST PASSED (total power: 4880642299.762660 W)
+
+==PROF== Disconnected from process 2441281
+[2441281] pv_gpu_shared@127.0.0.1
+  pvSolveKernelShared(int, int, const double *, const double *, PanelParams, double *, double *, double *) (78125, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector   10,000,000
+    launch__occupancy_per_shared_mem_size                                    1,936
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        74.34
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        97.69
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.000075 s
+    panels: 1000
+    newton_iters: 8
+Packing interleaved input array...0.000001 s
+Allocating device variables...==PROF== Connected to process 2441321 (/home/oseghalef/code/PV_Final/pv_gpu_coalesced)
+0.520151 s
+Copying data from host to device...0.000065 s
+Launching kernel...==PROF== Profiling "pvSolveKernelCoalesced" - 0: 0%....50%....100% - 4 passes
+0.641275 s
+Copying data from device to host...0.000081 s
+Unpacking interleaved output array...0.000003 s
+    total power (GPU-reduced): 244.002 kW
+Verifying results...TEST PASSED (total power: 244001.922006 W)
+
+==PROF== Disconnected from process 2441321
+[2441321] pv_gpu_coalesced@127.0.0.1
+  pvSolveKernelCoalesced(int, int, const double2 *, PanelParams, double2 *, double *) (4, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector          500
+    launch__occupancy_per_shared_mem_size                                    1,888
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        12.47
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        97.26
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.000621 s
+    panels: 10000
+    newton_iters: 8
+Packing interleaved input array...0.000095 s
+Allocating device variables...==PROF== Connected to process 2441357 (/home/oseghalef/code/PV_Final/pv_gpu_coalesced)
+0.526420 s
+Copying data from host to device...0.000117 s
+Launching kernel...==PROF== Profiling "pvSolveKernelCoalesced" - 0: 0%....50%....100% - 4 passes
+0.634638 s
+Copying data from device to host...0.000275 s
+Unpacking interleaved output array...0.000130 s
+    total power (GPU-reduced): 2440.625 kW
+Verifying results...TEST PASSED (total power: 2440624.628848 W)
+
+==PROF== Disconnected from process 2441357
+[2441357] pv_gpu_coalesced@127.0.0.1
+  pvSolveKernelCoalesced(int, int, const double2 *, PanelParams, double2 *, double *) (40, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector        5,000
+    launch__occupancy_per_shared_mem_size                                    1,888
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        12.46
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        97.65
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.002880 s
+    panels: 50000
+    newton_iters: 8
+Packing interleaved input array...0.000505 s
+Allocating device variables...==PROF== Connected to process 2441395 (/home/oseghalef/code/PV_Final/pv_gpu_coalesced)
+0.514198 s
+Copying data from host to device...0.000326 s
+Launching kernel...==PROF== Profiling "pvSolveKernelCoalesced" - 0: 0%....50%....100% - 4 passes
+0.639518 s
+Copying data from device to host...0.000959 s
+Unpacking interleaved output array...0.000662 s
+    total power (GPU-reduced): 12202.120 kW
+Verifying results...TEST PASSED (total power: 12202120.236376 W)
+
+==PROF== Disconnected from process 2441395
+[2441395] pv_gpu_coalesced@127.0.0.1
+  pvSolveKernelCoalesced(int, int, const double2 *, PanelParams, double2 *, double *) (196, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector       25,000
+    launch__occupancy_per_shared_mem_size                                    1,888
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        28.49
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        97.66
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.005702 s
+    panels: 100000
+    newton_iters: 8
+Packing interleaved input array...0.001023 s
+Allocating device variables...==PROF== Connected to process 2441487 (/home/oseghalef/code/PV_Final/pv_gpu_coalesced)
+0.531792 s
+Copying data from host to device...0.000454 s
+Launching kernel...==PROF== Profiling "pvSolveKernelCoalesced" - 0: 0%....50%....100% - 4 passes
+0.634444 s
+Copying data from device to host...0.001860 s
+Unpacking interleaved output array...0.001320 s
+    total power (GPU-reduced): 24403.571 kW
+Verifying results...TEST PASSED (total power: 24403570.613061 W)
+
+==PROF== Disconnected from process 2441487
+[2441487] pv_gpu_coalesced@127.0.0.1
+  pvSolveKernelCoalesced(int, int, const double2 *, PanelParams, double2 *, double *) (391, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector       50,000
+    launch__occupancy_per_shared_mem_size                                    1,888
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        48.57
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        97.71
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.026475 s
+    panels: 500000
+    newton_iters: 8
+Packing interleaved input array...0.002733 s
+Allocating device variables...==PROF== Connected to process 2441529 (/home/oseghalef/code/PV_Final/pv_gpu_coalesced)
+0.504890 s
+Copying data from host to device...0.001845 s
+Launching kernel...==PROF== Profiling "pvSolveKernelCoalesced" - 0: 0%....50%....100% - 4 passes
+0.635244 s
+Copying data from device to host...0.004617 s
+Unpacking interleaved output array...0.004642 s
+    total power (GPU-reduced): 122018.283 kW
+Verifying results...TEST PASSED (total power: 122018283.310640 W)
+
+==PROF== Disconnected from process 2441529
+[2441529] pv_gpu_coalesced@127.0.0.1
+  pvSolveKernelCoalesced(int, int, const double2 *, PanelParams, double2 *, double *) (1954, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector      250,000
+    launch__occupancy_per_shared_mem_size                                    1,888
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        57.59
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        97.72
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.051091 s
+    panels: 1000000
+    newton_iters: 8
+Packing interleaved input array...0.005622 s
+Allocating device variables...==PROF== Connected to process 2441565 (/home/oseghalef/code/PV_Final/pv_gpu_coalesced)
+0.460425 s
+Copying data from host to device...0.003512 s
+Launching kernel...==PROF== Profiling "pvSolveKernelCoalesced" - 0: 0%....50%....100% - 4 passes
+0.640106 s
+Copying data from device to host...0.007428 s
+Unpacking interleaved output array...0.007297 s
+    total power (GPU-reduced): 244036.120 kW
+Verifying results...TEST PASSED (total power: 244036120.429552 W)
+
+==PROF== Disconnected from process 2441565
+[2441565] pv_gpu_coalesced@127.0.0.1
+  pvSolveKernelCoalesced(int, int, const double2 *, PanelParams, double2 *, double *) (3907, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector      500,000
+    launch__occupancy_per_shared_mem_size                                    1,888
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        59.99
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        97.67
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.100690 s
+    panels: 2000000
+    newton_iters: 8
+Packing interleaved input array...0.010094 s
+Allocating device variables...==PROF== Connected to process 2441601 (/home/oseghalef/code/PV_Final/pv_gpu_coalesced)
+0.613506 s
+Copying data from host to device...0.006846 s
+Launching kernel...==PROF== Profiling "pvSolveKernelCoalesced" - 0: 0%....50%....100% - 4 passes
+0.647791 s
+Copying data from device to host...0.013304 s
+Unpacking interleaved output array...0.013515 s
+    total power (GPU-reduced): 488066.294 kW
+Verifying results...TEST PASSED (total power: 488066294.412977 W)
+
+==PROF== Disconnected from process 2441601
+[2441601] pv_gpu_coalesced@127.0.0.1
+  pvSolveKernelCoalesced(int, int, const double2 *, PanelParams, double2 *, double *) (7813, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector    1,000,000
+    launch__occupancy_per_shared_mem_size                                    1,888
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        60.90
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        97.69
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.125488 s
+    panels: 2500000
+    newton_iters: 8
+Packing interleaved input array...0.012404 s
+Allocating device variables...==PROF== Connected to process 2441638 (/home/oseghalef/code/PV_Final/pv_gpu_coalesced)
+0.588369 s
+Copying data from host to device...0.008525 s
+Launching kernel...==PROF== Profiling "pvSolveKernelCoalesced" - 0: 0%....50%....100% - 4 passes
+0.651012 s
+Copying data from device to host...0.017702 s
+Unpacking interleaved output array...0.016161 s
+    total power (GPU-reduced): 610083.703 kW
+Verifying results...TEST PASSED (total power: 610083702.882422 W)
+
+==PROF== Disconnected from process 2441638
+[2441638] pv_gpu_coalesced@127.0.0.1
+  pvSolveKernelCoalesced(int, int, const double2 *, PanelParams, double2 *, double *) (9766, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector    1,250,000
+    launch__occupancy_per_shared_mem_size                                    1,888
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        61.09
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        97.69
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.150905 s
+    panels: 3000000
+    newton_iters: 8
+Packing interleaved input array...0.014671 s
+Allocating device variables...==PROF== Connected to process 2441676 (/home/oseghalef/code/PV_Final/pv_gpu_coalesced)
+0.563648 s
+Copying data from host to device...0.010598 s
+Launching kernel...==PROF== Profiling "pvSolveKernelCoalesced" - 0: 0%....50%....100% - 4 passes
+0.651017 s
+Copying data from device to host...0.020433 s
+Unpacking interleaved output array...0.018866 s
+    total power (GPU-reduced): 732098.998 kW
+Verifying results...TEST PASSED (total power: 732098998.450456 W)
+
+==PROF== Disconnected from process 2441676
+[2441676] pv_gpu_coalesced@127.0.0.1
+  pvSolveKernelCoalesced(int, int, const double2 *, PanelParams, double2 *, double *) (11719, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector    1,500,000
+    launch__occupancy_per_shared_mem_size                                    1,888
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        61.35
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        97.68
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.190786 s
+    panels: 3800000
+    newton_iters: 8
+Packing interleaved input array...0.018680 s
+Allocating device variables...==PROF== Connected to process 2441712 (/home/oseghalef/code/PV_Final/pv_gpu_coalesced)
+0.511715 s
+Copying data from host to device...0.013253 s
+Launching kernel...==PROF== Profiling "pvSolveKernelCoalesced" - 0: 0%....50%....100% - 4 passes
+0.657527 s
+Copying data from device to host...0.025636 s
+Unpacking interleaved output array...0.023389 s
+    total power (GPU-reduced): 927324.564 kW
+Verifying results...TEST PASSED (total power: 927324563.791093 W)
+
+==PROF== Disconnected from process 2441712
+[2441712] pv_gpu_coalesced@127.0.0.1
+  pvSolveKernelCoalesced(int, int, const double2 *, PanelParams, double2 *, double *) (14844, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector    1,900,000
+    launch__occupancy_per_shared_mem_size                                    1,888
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        61.42
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        97.69
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.249678 s
+    panels: 5000000
+    newton_iters: 8
+Packing interleaved input array...0.024326 s
+Allocating device variables...==PROF== Connected to process 2441748 (/home/oseghalef/code/PV_Final/pv_gpu_coalesced)
+0.449143 s
+Copying data from host to device...0.017806 s
+Launching kernel...==PROF== Profiling "pvSolveKernelCoalesced" - 0: 0%....50%....100% - 4 passes
+0.666283 s
+Copying data from device to host...0.033392 s
+Unpacking interleaved output array...0.030350 s
+    total power (GPU-reduced): 1220160.540 kW
+Verifying results...TEST PASSED (total power: 1220160539.903720 W)
+
+==PROF== Disconnected from process 2441748
+[2441748] pv_gpu_coalesced@127.0.0.1
+  pvSolveKernelCoalesced(int, int, const double2 *, PanelParams, double2 *, double *) (19532, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector    2,500,000
+    launch__occupancy_per_shared_mem_size                                    1,888
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        61.59
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        97.69
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.324661 s
+    panels: 6500000
+    newton_iters: 8
+Packing interleaved input array...0.031743 s
+Allocating device variables...==PROF== Connected to process 2441784 (/home/oseghalef/code/PV_Final/pv_gpu_coalesced)
+0.662177 s
+Copying data from host to device...0.023656 s
+Launching kernel...==PROF== Profiling "pvSolveKernelCoalesced" - 0: 0%....50%....100% - 4 passes
+0.677273 s
+Copying data from device to host...0.042371 s
+Unpacking interleaved output array...0.038332 s
+    total power (GPU-reduced): 1586211.026 kW
+Verifying results...TEST PASSED (total power: 1586211026.349517 W)
+
+==PROF== Disconnected from process 2441784
+[2441784] pv_gpu_coalesced@127.0.0.1
+  pvSolveKernelCoalesced(int, int, const double2 *, PanelParams, double2 *, double *) (25391, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector    3,250,000
+    launch__occupancy_per_shared_mem_size                                    1,888
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        61.69
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        97.69
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.449225 s
+    panels: 9000000
+    newton_iters: 8
+Packing interleaved input array...0.042562 s
+Allocating device variables...==PROF== Connected to process 2441822 (/home/oseghalef/code/PV_Final/pv_gpu_coalesced)
+0.535249 s
+Copying data from host to device...0.033375 s
+Launching kernel...==PROF== Profiling "pvSolveKernelCoalesced" - 0: 0%....50%....100% - 4 passes
+0.689274 s
+Copying data from device to host...0.059251 s
+Unpacking interleaved output array...0.052573 s
+    total power (GPU-reduced): 2196288.427 kW
+Verifying results...TEST PASSED (total power: 2196288426.564513 W)
+
+==PROF== Disconnected from process 2441822
+[2441822] pv_gpu_coalesced@127.0.0.1
+  pvSolveKernelCoalesced(int, int, const double2 *, PanelParams, double2 *, double *) (35157, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector    4,500,000
+    launch__occupancy_per_shared_mem_size                                    1,888
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        61.72
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        97.69
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.498640 s
+    panels: 10000000
+    newton_iters: 8
+Packing interleaved input array...0.048089 s
+Allocating device variables...==PROF== Connected to process 2441870 (/home/oseghalef/code/PV_Final/pv_gpu_coalesced)
+0.479025 s
+Copying data from host to device...0.037019 s
+Launching kernel...==PROF== Profiling "pvSolveKernelCoalesced" - 0: 0%....50%....100% - 4 passes
+0.696651 s
+Copying data from device to host...0.064082 s
+Unpacking interleaved output array...0.058873 s
+    total power (GPU-reduced): 2440317.606 kW
+Verifying results...TEST PASSED (total power: 2440317605.932414 W)
+
+==PROF== Disconnected from process 2441870
+[2441870] pv_gpu_coalesced@127.0.0.1
+  pvSolveKernelCoalesced(int, int, const double2 *, PanelParams, double2 *, double *) (39063, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector    5,000,000
+    launch__occupancy_per_shared_mem_size                                    1,888
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        61.77
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        97.69
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.747099 s
+    panels: 15000000
+    newton_iters: 8
+Packing interleaved input array...0.070326 s
+Allocating device variables...==PROF== Connected to process 2441986 (/home/oseghalef/code/PV_Final/pv_gpu_coalesced)
+0.613591 s
+Copying data from host to device...0.056758 s
+Launching kernel...==PROF== Profiling "pvSolveKernelCoalesced" - 0: 0%....50%....100% - 4 passes
+0.717820 s
+Copying data from device to host...0.096780 s
+Unpacking interleaved output array...0.087285 s
+    total power (GPU-reduced): 3660480.424 kW
+Verifying results...TEST PASSED (total power: 3660480423.775259 W)
+
+==PROF== Disconnected from process 2441986
+[2441986] pv_gpu_coalesced@127.0.0.1
+  pvSolveKernelCoalesced(int, int, const double2 *, PanelParams, double2 *, double *) (58594, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector    7,500,000
+    launch__occupancy_per_shared_mem_size                                    1,888
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        61.84
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        97.69
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.996134 s
+    panels: 20000000
+    newton_iters: 8
+Packing interleaved input array...0.094530 s
+Allocating device variables...==PROF== Connected to process 2442055 (/home/oseghalef/code/PV_Final/pv_gpu_coalesced)
+0.840198 s
+Copying data from host to device...0.075559 s
+Launching kernel...==PROF== Profiling "pvSolveKernelCoalesced" - 0: 0%....50%....100% - 4 passes
+0.743355 s
+Copying data from device to host...0.127892 s
+Unpacking interleaved output array...0.114682 s
+    total power (GPU-reduced): 4880642.300 kW
+Verifying results...TEST PASSED (total power: 4880642299.762664 W)
+
+==PROF== Disconnected from process 2442055
+[2442055] pv_gpu_coalesced@127.0.0.1
+  pvSolveKernelCoalesced(int, int, const double2 *, PanelParams, double2 *, double *) (78125, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector   10,000,000
+    launch__occupancy_per_shared_mem_size                                    1,888
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        61.89
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        97.69
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.000074 s
+    panels: 1000
+    newton_iters: 8
+Packing interleaved input array...0.000001 s
+Allocating device variables...==PROF== Connected to process 2442111 (/home/oseghalef/code/PV_Final/pv_gpu_compute)
+0.531005 s
+Copying data from host to device...0.000063 s
+Launching kernel...==PROF== Profiling "pvSolveKernelCompute" - 0: 0%....50%....100% - 4 passes
+0.647610 s
+Copying data from device to host...0.000083 s
+Unpacking interleaved output array...0.000005 s
+    total power (GPU-reduced): 244.002 kW
+Verifying results...TEST PASSED (total power: 244001.922006 W)
+
+==PROF== Disconnected from process 2442111
+[2442111] pv_gpu_compute@127.0.0.1
+  pvSolveKernelCompute(int, int, const double2 *, PanelParams, double2 *, double *) (4, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector          500
+    launch__occupancy_per_shared_mem_size                                    1,936
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        12.46
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        96.42
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.000608 s
+    panels: 10000
+    newton_iters: 8
+Packing interleaved input array...0.000114 s
+Allocating device variables...==PROF== Connected to process 2442160 (/home/oseghalef/code/PV_Final/pv_gpu_compute)
+0.519234 s
+Copying data from host to device...0.000108 s
+Launching kernel...==PROF== Profiling "pvSolveKernelCompute" - 0: 0%....50%....100% - 4 passes
+0.644468 s
+Copying data from device to host...0.000284 s
+Unpacking interleaved output array...0.000123 s
+    total power (GPU-reduced): 2440.625 kW
+Verifying results...TEST PASSED (total power: 2440624.628848 W)
+
+==PROF== Disconnected from process 2442160
+[2442160] pv_gpu_compute@127.0.0.1
+  pvSolveKernelCompute(int, int, const double2 *, PanelParams, double2 *, double *) (40, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector        5,000
+    launch__occupancy_per_shared_mem_size                                    1,936
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        12.46
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        96.73
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.002875 s
+    panels: 50000
+    newton_iters: 8
+Packing interleaved input array...0.000505 s
+Allocating device variables...==PROF== Connected to process 2442196 (/home/oseghalef/code/PV_Final/pv_gpu_compute)
+0.524395 s
+Copying data from host to device...0.000285 s
+Launching kernel...==PROF== Profiling "pvSolveKernelCompute" - 0: 0%....50%....100% - 4 passes
+0.641926 s
+Copying data from device to host...0.000968 s
+Unpacking interleaved output array...0.000722 s
+    total power (GPU-reduced): 12202.120 kW
+Verifying results...TEST PASSED (total power: 12202120.236376 W)
+
+==PROF== Disconnected from process 2442196
+[2442196] pv_gpu_compute@127.0.0.1
+  pvSolveKernelCompute(int, int, const double2 *, PanelParams, double2 *, double *) (196, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector       25,000
+    launch__occupancy_per_shared_mem_size                                    1,936
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        29.10
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        96.74
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.005713 s
+    panels: 100000
+    newton_iters: 8
+Packing interleaved input array...0.001019 s
+Allocating device variables...==PROF== Connected to process 2442232 (/home/oseghalef/code/PV_Final/pv_gpu_compute)
+0.519722 s
+Copying data from host to device...0.000457 s
+Launching kernel...==PROF== Profiling "pvSolveKernelCompute" - 0: 0%....50%....100% - 4 passes
+0.646906 s
+Copying data from device to host...0.001886 s
+Unpacking interleaved output array...0.001323 s
+    total power (GPU-reduced): 24403.571 kW
+Verifying results...TEST PASSED (total power: 24403570.613061 W)
+
+==PROF== Disconnected from process 2442232
+[2442232] pv_gpu_compute@127.0.0.1
+  pvSolveKernelCompute(int, int, const double2 *, PanelParams, double2 *, double *) (391, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector       50,000
+    launch__occupancy_per_shared_mem_size                                    1,936
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        48.26
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        96.80
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.026538 s
+    panels: 500000
+    newton_iters: 8
+Packing interleaved input array...0.002736 s
+Allocating device variables...==PROF== Connected to process 2442268 (/home/oseghalef/code/PV_Final/pv_gpu_compute)
+0.497772 s
+Copying data from host to device...0.001847 s
+Launching kernel...==PROF== Profiling "pvSolveKernelCompute" - 0: 0%....50%....100% - 4 passes
+0.642879 s
+Copying data from device to host...0.004481 s
+Unpacking interleaved output array...0.004651 s
+    total power (GPU-reduced): 122018.283 kW
+Verifying results...TEST PASSED (total power: 122018283.310640 W)
+
+==PROF== Disconnected from process 2442268
+[2442268] pv_gpu_compute@127.0.0.1
+  pvSolveKernelCompute(int, int, const double2 *, PanelParams, double2 *, double *) (1954, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector      250,000
+    launch__occupancy_per_shared_mem_size                                    1,936
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        67.72
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        96.79
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.051188 s
+    panels: 1000000
+    newton_iters: 8
+Packing interleaved input array...0.005568 s
+Allocating device variables...==PROF== Connected to process 2442304 (/home/oseghalef/code/PV_Final/pv_gpu_compute)
+0.465933 s
+Copying data from host to device...0.004034 s
+Launching kernel...==PROF== Profiling "pvSolveKernelCompute" - 0: 0%....50%....100% - 4 passes
+0.650699 s
+Copying data from device to host...0.007547 s
+Unpacking interleaved output array...0.007284 s
+    total power (GPU-reduced): 244036.120 kW
+Verifying results...TEST PASSED (total power: 244036120.429552 W)
+
+==PROF== Disconnected from process 2442304
+[2442304] pv_gpu_compute@127.0.0.1
+  pvSolveKernelCompute(int, int, const double2 *, PanelParams, double2 *, double *) (3907, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector      500,000
+    launch__occupancy_per_shared_mem_size                                    1,936
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        70.84
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        96.76
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.100657 s
+    panels: 2000000
+    newton_iters: 8
+Packing interleaved input array...0.010174 s
+Allocating device variables...==PROF== Connected to process 2442341 (/home/oseghalef/code/PV_Final/pv_gpu_compute)
+0.620312 s
+Copying data from host to device...0.007082 s
+Launching kernel...==PROF== Profiling "pvSolveKernelCompute" - 0: 0%....50%....100% - 4 passes
+0.655556 s
+Copying data from device to host...0.013386 s
+Unpacking interleaved output array...0.013468 s
+    total power (GPU-reduced): 488066.294 kW
+Verifying results...TEST PASSED (total power: 488066294.412977 W)
+
+==PROF== Disconnected from process 2442341
+[2442341] pv_gpu_compute@127.0.0.1
+  pvSolveKernelCompute(int, int, const double2 *, PanelParams, double2 *, double *) (7813, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector    1,000,000
+    launch__occupancy_per_shared_mem_size                                    1,936
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        72.45
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        96.75
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.128912 s
+    panels: 2500000
+    newton_iters: 8
+Packing interleaved input array...0.012457 s
+Allocating device variables...==PROF== Connected to process 2442379 (/home/oseghalef/code/PV_Final/pv_gpu_compute)
+0.587605 s
+Copying data from host to device...0.008690 s
+Launching kernel...==PROF== Profiling "pvSolveKernelCompute" - 0: 0%....50%....100% - 4 passes
+0.657613 s
+Copying data from device to host...0.017613 s
+Unpacking interleaved output array...0.016136 s
+    total power (GPU-reduced): 610083.703 kW
+Verifying results...TEST PASSED (total power: 610083702.882422 W)
+
+==PROF== Disconnected from process 2442379
+[2442379] pv_gpu_compute@127.0.0.1
+  pvSolveKernelCompute(int, int, const double2 *, PanelParams, double2 *, double *) (9766, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector    1,250,000
+    launch__occupancy_per_shared_mem_size                                    1,936
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        72.89
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        96.75
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.151062 s
+    panels: 3000000
+    newton_iters: 8
+Packing interleaved input array...0.014749 s
+Allocating device variables...==PROF== Connected to process 2442415 (/home/oseghalef/code/PV_Final/pv_gpu_compute)
+0.558265 s
+Copying data from host to device...0.010271 s
+Launching kernel...==PROF== Profiling "pvSolveKernelCompute" - 0: 0%....50%....100% - 4 passes
+0.658650 s
+Copying data from device to host...0.020594 s
+Unpacking interleaved output array...0.018821 s
+    total power (GPU-reduced): 732098.998 kW
+Verifying results...TEST PASSED (total power: 732098998.450457 W)
+
+==PROF== Disconnected from process 2442415
+[2442415] pv_gpu_compute@127.0.0.1
+  pvSolveKernelCompute(int, int, const double2 *, PanelParams, double2 *, double *) (11719, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector    1,500,000
+    launch__occupancy_per_shared_mem_size                                    1,936
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        73.05
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        96.77
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.190745 s
+    panels: 3800000
+    newton_iters: 8
+Packing interleaved input array...0.018515 s
+Allocating device variables...==PROF== Connected to process 2442451 (/home/oseghalef/code/PV_Final/pv_gpu_compute)
+0.521866 s
+Copying data from host to device...0.013961 s
+Launching kernel...==PROF== Profiling "pvSolveKernelCompute" - 0: 0%....50%....100% - 4 passes
+0.661906 s
+Copying data from device to host...0.025653 s
+Unpacking interleaved output array...0.023427 s
+    total power (GPU-reduced): 927324.564 kW
+Verifying results...TEST PASSED (total power: 927324563.791093 W)
+
+==PROF== Disconnected from process 2442451
+[2442451] pv_gpu_compute@127.0.0.1
+  pvSolveKernelCompute(int, int, const double2 *, PanelParams, double2 *, double *) (14844, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector    1,900,000
+    launch__occupancy_per_shared_mem_size                                    1,936
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        73.32
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        96.74
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.249673 s
+    panels: 5000000
+    newton_iters: 8
+Packing interleaved input array...0.024275 s
+Allocating device variables...==PROF== Connected to process 2442487 (/home/oseghalef/code/PV_Final/pv_gpu_compute)
+0.452752 s
+Copying data from host to device...0.017871 s
+Launching kernel...==PROF== Profiling "pvSolveKernelCompute" - 0: 0%....50%....100% - 4 passes
+0.667138 s
+Copying data from device to host...0.033354 s
+Unpacking interleaved output array...0.030342 s
+    total power (GPU-reduced): 1220160.540 kW
+Verifying results...TEST PASSED (total power: 1220160539.903722 W)
+
+==PROF== Disconnected from process 2442487
+[2442487] pv_gpu_compute@127.0.0.1
+  pvSolveKernelCompute(int, int, const double2 *, PanelParams, double2 *, double *) (19532, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector    2,500,000
+    launch__occupancy_per_shared_mem_size                                    1,936
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        73.48
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        96.76
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.324640 s
+    panels: 6500000
+    newton_iters: 8
+Packing interleaved input array...0.031695 s
+Allocating device variables...==PROF== Connected to process 2442523 (/home/oseghalef/code/PV_Final/pv_gpu_compute)
+0.670548 s
+Copying data from host to device...0.023510 s
+Launching kernel...==PROF== Profiling "pvSolveKernelCompute" - 0: 0%....50%....100% - 4 passes
+0.674446 s
+Copying data from device to host...0.042413 s
+Unpacking interleaved output array...0.038470 s
+    total power (GPU-reduced): 1586211.026 kW
+Verifying results...TEST PASSED (total power: 1586211026.349518 W)
+
+==PROF== Disconnected from process 2442523
+[2442523] pv_gpu_compute@127.0.0.1
+  pvSolveKernelCompute(int, int, const double2 *, PanelParams, double2 *, double *) (25391, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector    3,250,000
+    launch__occupancy_per_shared_mem_size                                    1,936
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        73.65
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        96.76
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.449105 s
+    panels: 9000000
+    newton_iters: 8
+Packing interleaved input array...0.042519 s
+Allocating device variables...==PROF== Connected to process 2442569 (/home/oseghalef/code/PV_Final/pv_gpu_compute)
+0.546410 s
+Copying data from host to device...0.033043 s
+Launching kernel...==PROF== Profiling "pvSolveKernelCompute" - 0: 0%....50%....100% - 4 passes
+0.685586 s
+Copying data from device to host...0.059301 s
+Unpacking interleaved output array...0.052508 s
+    total power (GPU-reduced): 2196288.427 kW
+Verifying results...TEST PASSED (total power: 2196288426.564514 W)
+
+==PROF== Disconnected from process 2442569
+[2442569] pv_gpu_compute@127.0.0.1
+  pvSolveKernelCompute(int, int, const double2 *, PanelParams, double2 *, double *) (35157, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector    4,500,000
+    launch__occupancy_per_shared_mem_size                                    1,936
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        73.91
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        96.74
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.498630 s
+    panels: 10000000
+    newton_iters: 8
+Packing interleaved input array...0.047954 s
+Allocating device variables...==PROF== Connected to process 2442605 (/home/oseghalef/code/PV_Final/pv_gpu_compute)
+0.476743 s
+Copying data from host to device...0.037117 s
+Launching kernel...==PROF== Profiling "pvSolveKernelCompute" - 0: 0%....50%....100% - 4 passes
+0.692152 s
+Copying data from device to host...0.064426 s
+Unpacking interleaved output array...0.058935 s
+    total power (GPU-reduced): 2440317.606 kW
+Verifying results...TEST PASSED (total power: 2440317605.932415 W)
+
+==PROF== Disconnected from process 2442605
+[2442605] pv_gpu_compute@127.0.0.1
+  pvSolveKernelCompute(int, int, const double2 *, PanelParams, double2 *, double *) (39063, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector    5,000,000
+    launch__occupancy_per_shared_mem_size                                    1,936
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        73.86
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        96.75
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.746953 s
+    panels: 15000000
+    newton_iters: 8
+Packing interleaved input array...0.070238 s
+Allocating device variables...==PROF== Connected to process 2442703 (/home/oseghalef/code/PV_Final/pv_gpu_compute)
+0.614039 s
+Copying data from host to device...0.056651 s
+Launching kernel...==PROF== Profiling "pvSolveKernelCompute" - 0: 0%....50%....100% - 4 passes
+0.708677 s
+Copying data from device to host...0.097124 s
+Unpacking interleaved output array...0.087259 s
+    total power (GPU-reduced): 3660480.424 kW
+Verifying results...TEST PASSED (total power: 3660480423.775256 W)
+
+==PROF== Disconnected from process 2442703
+[2442703] pv_gpu_compute@127.0.0.1
+  pvSolveKernelCompute(int, int, const double2 *, PanelParams, double2 *, double *) (58594, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector    7,500,000
+    launch__occupancy_per_shared_mem_size                                    1,936
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        74.02
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        96.75
+    ----------------------------------------------------- ----------- ------------
+
+
+Setting up the problem...0.996143 s
+    panels: 20000000
+    newton_iters: 8
+Packing interleaved input array...0.094485 s
+Allocating device variables...==PROF== Connected to process 2442739 (/home/oseghalef/code/PV_Final/pv_gpu_compute)
+0.845849 s
+Copying data from host to device...0.075094 s
+Launching kernel...==PROF== Profiling "pvSolveKernelCompute" - 0: 0%....50%....100% - 4 passes
+0.726555 s
+Copying data from device to host...0.128242 s
+Unpacking interleaved output array...0.114679 s
+    total power (GPU-reduced): 4880642.300 kW
+Verifying results...TEST PASSED (total power: 4880642299.762665 W)
+
+==PROF== Disconnected from process 2442739
+[2442739] pv_gpu_compute@127.0.0.1
+  pvSolveKernelCompute(int, int, const double2 *, PanelParams, double2 *, double *) (78125, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.0
+    Section: Command line profiler metrics
+    ----------------------------------------------------- ----------- ------------
+    Metric Name                                           Metric Unit Metric Value
+    ----------------------------------------------------- ----------- ------------
+    l1tex__t_sectors_pipe_lsu_mem_global_op_ld.sum             sector   10,000,000
+    launch__occupancy_per_shared_mem_size                                    1,936
+    sm__warps_active.avg.pct_of_peak_sustained_active               %        74.04
+    smsp__sass_average_branch_targets_threads_uniform.pct           %        96.75
+    ----------------------------------------------------- ----------- ------------
+
