@@ -40,7 +40,20 @@ __global__ void pvSolveKernel(int num_panels, int newton_iters, const double *ir
     out_power[i]   = Vop * I;
 }
 
-void solvePVPlant()
+void solvePVPlant(int num_panels, int newton_iters,
+    const double *irradiance_d, const double *temperature_d,
+    PanelParams params, double *current_d, double *power_d)
 {
+    // Initialize thread block and kernel grid dimensions ---------------------
+
+    const unsigned int BLOCK_SIZE = 256; // Use 256 threads per block
+
+    dim3 dim_grid((num_panels + BLOCK_SIZE - 1) / BLOCK_SIZE, 1, 1);
+    dim3 dim_block(BLOCK_SIZE, 1, 1);
+
+    // Invoke CUDA kernel -----------------------------------------------------
+
+    pvSolveKernel<<<dim_grid, dim_block>>>(num_panels, newton_iters,
+        irradiance_d, temperature_d, params, current_d, power_d);
 
 }
